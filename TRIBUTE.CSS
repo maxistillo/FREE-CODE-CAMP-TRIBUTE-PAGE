@@ -1,0 +1,62 @@
+#main {
+  padding: 20px;
+  margin: 30px;
+  background-color: #f1dac4;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: #474973;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+}
+
+#sub-title {
+  display: flex;
+  justify-content: center;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #a69cac;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#img-caption {
+  padding-top: 10px;
+  color: #0d0c1d;
+}
+
+#image {
+  filter: sepia(1);
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+#more-info {
+  text-align: center;
+}
+
+#tribute-link:visited,
+#tribute-link {
+  color: #0d0c1d;
+}
+
+#tribute-link:hover {
+  background-color: #a69cac;
+}
+
+.sub-list {
+  list-style: none;
+}
+
+@media (max-width: 850px) {
+  #image {
+    width: 100%;
+    min-width: 200px;
+  }
+}
